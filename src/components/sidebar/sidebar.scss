@@ -1,0 +1,53 @@
+@use '../../scss/' as *;
+
+/* ==== Sidebar ==== */
+/* contenedor de sidebar */
+.sidebar {
+  min-width: $sidebar-width;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: $blue;
+  color: $txt-color-scd;
+  box-shadow: $box-shadow;
+  padding-top: 5%;
+  &__item {
+    margin: 10px;
+    padding: 0 0px;
+
+    &-inner {
+      margin: 10px;
+      padding: 15px 0px;
+
+      &__icon {
+        @include flex(center,center);
+
+        & > i {
+          font-size: 32px;
+          font-weight: 600;
+          align-items: center;
+        }
+      }
+
+      &__name {
+        @include flex(center,center);
+        padding: 5px 0;
+        & > span {
+          text-transform: capitalize;
+          font-size: 16px;
+        }
+      }
+    }
+
+    &-inner:hover {
+      color: $purple;
+    }
+  }
+
+  &__item#Salir {
+    margin-top: 70%;
+  }
+}
+
+

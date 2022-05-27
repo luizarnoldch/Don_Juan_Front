@@ -1,0 +1,32 @@
+[
+  {
+    "display_name": "Mesas",
+    "route": "/mesas",
+    "icon": "fa-solid fa-grid-2"
+  },
+  {
+    "display_name": "Productos",
+    "route": "/productos",
+    "icon": "fa-solid fa-tag"
+  },
+  {
+    "display_name": "Salir",
+    "route": "/salir",
+    "icon": "fa-solid fa-arrow-right-from-bracket"
+  },
+  {
+    "display_name": "Usuario",
+    "route": "/usuario",
+    "icon": "fa-solid fa-user"
+  },
+  {
+    "display_name": "Home",
+    "route": "/cajero",
+    "icon": "fa-solid fa-house"
+  },
+  {
+    "display_name": "Usuarios",
+    "route": "/usuarios",
+    "icon": "fa-solid fa-users-gear"
+  }
+]

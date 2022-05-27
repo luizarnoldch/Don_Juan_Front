@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Usuario",
+    "route": "/cajero/usuario",
+    "icon": "fa-solid fa-user"
+  },
+  {
+    "title": "Inicio",
+    "route": "/cajero",
+    "icon": "fa-solid fa-house"
+  },
+  {
+    "title": "Mesas",
+    "route": "/cajero/mesas",
+    "icon": "fa-solid fa-table-cells"
+  },
+  {
+    "title": "Productos",
+    "route": "/cajero/productos",
+    "icon": "fa-solid fa-tag"
+  },
+  {
+    "title": "Empleados",
+    "route": "/cajero/empleados",
+    "icon": "fa-solid fa-users-gear"
+  },
+  {
+    "title": "Salir",
+    "route": "/salir",
+    "icon": "fa-solid fa-arrow-right-from-bracket"
+  }
+]

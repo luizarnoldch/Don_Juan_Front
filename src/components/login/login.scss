@@ -1,0 +1,11 @@
+@use '../../scss/' as *;
+
+/* ==== Login ==== */
+/* contenedor login */
+.login {
+  @include flex(center,center);
+  background-image: url('../../assets/img/login/fondo.png');
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}

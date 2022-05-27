@@ -1,0 +1,27 @@
+@use '../../scss/' as *;
+
+/* ==== Tabla de productos ==== */
+/* contenedor de Tabla de productos */
+table {
+  width: 100%;
+  min-width: 400px;
+  border-spacing: 0;
+  margin: 1rem 0;
+  border-radius: $border-radius;
+}
+
+thead {
+  color: $txt-color-scd;
+  border-radius: $border-radius;
+}
+
+tr {
+  text-align: center;
+  height: 3.75rem;
+  border-radius: $border-radius;
+}
+
+tbody > tr:hover{
+  background-color: $white;
+  box-shadow: $box-shadow-light;
+}

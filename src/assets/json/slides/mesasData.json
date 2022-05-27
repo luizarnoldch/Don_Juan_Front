@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Mesa 1",
+    "route": "/mesa/1",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Libre",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "title": "Mesa 2",
+    "route": "/mesa/2",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Ocupado",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye-slash"
+  },
+  {
+    "title": "Mesa 3",
+    "route": "/mesa/3",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Libre",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "title": "Mesa 4",
+    "route": "/mesa/4",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Ocupado",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye-slash"
+  },
+  {
+    "title": "Mesa 5",
+    "route": "/mesa/5",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Libre",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "title": "Mesa 6",
+    "route": "/mesa/6",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Ocupado",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye-slash"
+  },
+  {
+    "title": "Mesa 7",
+    "route": "/mesa/7",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Libre",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "title": "Mesa 8",
+    "route": "/mesa/8",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Ocupado",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye-slash"
+  },
+  {
+    "title": "Mesa 9",
+    "route": "/mesa/9",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Libre",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye"
+  },
+  {
+    "title": "Mesa 10",
+    "route": "/mesa/10",
+    "menu": "1",
+    "carta": "3",
+    "total": "115.00",
+    "estado": "Ocupado",
+    "mesero": "Jorge Palacios",
+    "icon": "fa-solid fa-eye-slash"
+  }
+]

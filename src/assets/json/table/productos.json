@@ -1,0 +1,53 @@
+{
+  "head": ["Foto", "Nombre", "Fecha", "Tipo", "Precio", "Acciones"],
+  "body": [
+    {
+      "foto": "foto 1",
+      "nombre": "Cuy Guisado",
+      "fecha": "25/05/22",
+      "tipo": "Carta",
+      "precio": "S/ 40.00",
+      "acciones": "..."
+    },
+    {
+      "foto": "foto 2",
+      "nombre": "Churrasco",
+      "fecha": "25/05/22",
+      "tipo": "Carta",
+      "precio": "S/ 40.00",
+      "acciones": "..."
+    },
+    {
+      "foto": "foto 3",
+      "nombre": "Lomo Saltado",
+      "fecha": "25/05/22",
+      "tipo": "Carta",
+      "precio": "S/ 40.00",
+      "acciones": "..."
+    },
+    {
+      "foto": "foto 4",
+      "nombre": "Yuca Rellena",
+      "fecha": "25/05/22",
+      "tipo": "Carta",
+      "precio": "S/ 40.00",
+      "acciones": "..."
+    },
+    {
+      "foto": "foto 5",
+      "nombre": "Cabrito",
+      "fecha": "25/05/22",
+      "tipo": "Carta",
+      "precio": "S/ 40.00",
+      "acciones": "..."
+    },
+    {
+      "foto": "foto 6",
+      "nombre": "Cabrilla Frita",
+      "fecha": "25/05/22",
+      "tipo": "Carta",
+      "precio": "S/ 40.00",
+      "acciones": "..."
+    }
+  ]
+}

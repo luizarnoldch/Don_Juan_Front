@@ -1,0 +1,78 @@
+@use '../../../../scss/' as *;
+
+/* ==== Boleta de venta ==== */
+/* contenedor boleta*/
+.boleta {
+  max-width: 450px;
+  padding: 2rem;
+
+  &-title {
+    text-align: center;
+  }
+
+  &-header {
+    margin-top: 1.5rem;
+  }
+
+  &-space {
+    @include flex(center,space-between);
+
+    border-top: 0.1rem dashed black;
+    border-bottom: 0.1rem dashed black;
+    margin: 1.5rem 0;
+    padding: 0.5rem 0;
+    font-weight: 600;
+  }
+
+  &-body {
+    margin-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1rem dashed black;
+
+    & > p {
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
+
+    &__pedido {
+      @include flex(center,space-between);
+      margin: 0.25rem;
+
+      &__menu {
+        text-transform: capitalize;
+
+        &__precio {
+          font-weight: 600;
+        }
+      }
+
+      &__carta {
+
+        &__precio {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  &-footer {
+    font-weight: 600;
+    margin: 2rem 0;
+
+    &__total {
+      @include flex(center,space-between);
+
+      &__title {
+        @include flex(center,center);
+
+        & > i {
+          font-size: 1.75rem;
+        }
+        & > p {
+          font-size: 1.25rem;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}

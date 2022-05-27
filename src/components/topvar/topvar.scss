@@ -1,0 +1,71 @@
+@use '../../scss/' as *;
+
+/* ==== TopVar ==== */
+/* contenedor de Topvar */
+.topnav {
+  margin: 1px;
+  height: 90px;
+
+  @include flex(center,space-between);
+  
+  &__title {
+    width: 66%;
+    height: 50px;
+    padding-left: 1rem;
+    background-color: $white;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+
+    @include flex(center,none);
+
+
+    & > span {
+      padding: 0.25em 0.5em;
+      color: $black;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+
+  &__right {
+    padding-right: 5vw;
+
+    @include flex(center,none);
+    
+    &__content {
+      margin: 1px;
+
+      @include flex(center,none);
+
+      &__logo {
+        margin: 1px;
+        @include flex(center,none);
+
+        &__border {
+          border: 4px solid black;
+          margin: 1px;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          display: grid;
+          place-items: center;
+        }
+
+        &__perfil {
+          margin: 1px;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+      }
+
+      &__name {
+        @include flex(center,center);
+        & > span {
+          margin-left: 5px;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

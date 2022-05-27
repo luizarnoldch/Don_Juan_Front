@@ -1,0 +1,53 @@
+{
+  "head": [
+    {
+      "pedido":"123456789",
+      "fecha": "25/05/22 11:06:14",
+      "tipo": "En salon",
+      "mesa": "7",
+      "cajero": "73035200",
+      "nombre_cajero": "Arnold Chavez",
+      "mesero": "73030300",
+      "nombre_mesero": "Katherin Liliana"
+    } 
+  ],
+  "body": [
+    {
+      "nombre": [
+        {
+          "entrada": "ocopa",
+          "segundo": "pollo al perol",
+          "postre": "cebada"
+        }
+      ],
+      "tipo": "Menu",
+      "precio": "19.00"
+    },
+    {
+      "nombre": [
+        {
+          "entrada": "huancaina",
+          "segundo": "pollo al horno",
+          "postre": "chicha"
+        }
+      ],
+      "tipo": "Menu",
+      "precio": "19.00"
+    },
+    {
+      "nombre": "Lomo Saltado",
+      "tipo": "Carta",
+      "precio": "35.00"
+    },
+    {
+      "nombre": "Jarra de Cebada",
+      "tipo": "Carta",
+      "precio": "14.00"
+    }
+  ],
+  "foot": [
+    {
+      "total": "87.00"
+    }
+  ]
+}

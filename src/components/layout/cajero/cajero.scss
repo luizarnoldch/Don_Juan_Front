@@ -1,0 +1,47 @@
+@use '../../../scss/' as *;
+
+/* ==== Dashboard Mesero ==== */
+/* contenedor mesero*/
+.layout-cajero {
+  padding-left: $sidebar-width;
+  
+  /* cotenido del contenedor del mesero*/
+  &__content {
+    padding: 1rem;
+
+  }
+}
+
+.carrusel {
+  border: 0px solid blue;
+
+  & > h2 {
+    font-weight: 600;
+  }
+}
+
+.table-header {
+  & > h2 {
+    font-weight: 600;
+  }
+}
+
+.table-footer {
+  text-align: center;
+  text-decoration: underline;
+  color: $txt-color-scd;
+  cursor: pointer;
+}
+
+.table-footer:hover {
+  color: $purple;
+}
+
+.boleta {
+  height: calc(100vh - 130px);
+  box-shadow: $box-shadow-light;
+  & > h2 {
+    font-weight: 600;
+    text-align: center;
+  }
+}

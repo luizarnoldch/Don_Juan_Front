@@ -1,0 +1,11 @@
+@use '../../../scss/' as *;
+
+/* ==== Dashboard Mesero ==== */
+/* contenedor mesero*/
+.layout-mesero {
+  padding-left: $sidebar-width;
+
+  &__content {
+    border: 1px solid blue;
+  }
+}

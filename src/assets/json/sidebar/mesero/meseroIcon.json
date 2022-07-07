@@ -1,28 +1,18 @@
 [
   {
     "title": "Usuario",
-    "route": "/cajero/usuarios",
+    "route": "/mesero/usuarios",
     "icon": "fa-solid fa-user"
   },
   {
-    "title": "Inicio",
-    "route": "/cajero",
-    "icon": "fa-solid fa-house"
-  },
-  {
     "title": "Mesas",
-    "route": "/cajero/mesas",
+    "route": "/mesero/mesas",
     "icon": "fa-solid fa-table-cells"
   },
   {
     "title": "Productos",
-    "route": "/cajero/productos",
+    "route": "/mesero/productos",
     "icon": "fa-solid fa-tag"
-  },
-  {
-    "title": "Empleados",
-    "route": "/cajero/empleados",
-    "icon": "fa-solid fa-users-gear"
   },
   {
     "title": "Salir",

@@ -21,12 +21,13 @@ const SideBarItem = props => {
   )
 }
 
-const SideBar = props => {
+const SideBar = (props) => {
 
   const sidebar_item = props.items;
 
   return (
     <div className="sidebar">
+      {props.usuario}
       {
         sidebar_item.map((item, index) => (
           <Link to={item.route} key={index}>

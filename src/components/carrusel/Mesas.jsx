@@ -1,24 +1,26 @@
 import React from 'react'
 
-import SwiperCore, { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, FreeMode, Navigation} from "swiper";
 
 import mesas from '../../assets/json/slides/mesasData.json';
 
 import './mesas.scss';
 
 const SlideMesas = () => {
-
-  SwiperCore.use([Autoplay]);
-
   return (
     <div className="carrusel-mesa">
       <Swiper
-        modules={[Autoplay]}
-        grabCursos={true}
-        spaceBetween={20}
         slidesPerView={5}
-        autoplay={{delay: 3000}}
+        spaceBetween={30}
+        modules={[Autoplay, FreeMode, Navigation]}
+        grabCursos={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
+        className="mySwiper"
       >
         {
           mesas.map((item, i) => (

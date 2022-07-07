@@ -4,13 +4,29 @@
 /* contenedor de Slides-Menu */
 .carrusel-mesa {
   @include flex(center,center);
+  &__content {
+    @include flex(center,center);
+  }
+}
+
+
+.carrusel-mesa {
+  border: 1px solid red;
+
+  @include flex(center,center);
+  flex-direction: row;
+  position: relative;
   min-width: 12rem;
   min-height: 12rem;
   margin: 10px;
 }
 
+
 /* cotenedores del slides*/
+/*
 .mesa-slide__item {
+
+  border: 1px solid blue;
   @include flex(center,center);
   min-width: 11.875rem;
   min-height: 11.875rem;
@@ -46,7 +62,8 @@
     }
   }
 }
-
+*/
+/*
 .mesa-slide__item::before {
   content: "";
   position: absolute;
@@ -57,3 +74,4 @@
   border-radius: 10px;
   background-image: linear-gradient(to top, rgba(black,0.2), rgba(black,0.3));
 }
+*/
